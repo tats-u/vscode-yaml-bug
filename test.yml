@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=./schema.yml
+foo: 0
+bar: false
+baz: qux

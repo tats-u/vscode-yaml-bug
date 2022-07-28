@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2019-09/schema
+$schema: https://json-schema.org/draft/2019-09/schema
+$id: http://example.com/example.json
+type: object
+default: {}
+title: Root Schema
+required:
+- foo
+- bar
+- baz
+properties:
+  foo:
+    type: integer
+    default: 0
+    title: The foo Schema
+    examples:
+    - 1
+  bar:
+    type: boolean
+    default: false
+    title: The bar Schema
+    examples:
+    - true
+  baz:
+    type: string
+    default: ''
+    title: The baz Schema
+    examples:
+    - qux
+examples:
+- foo: 1
+  bar: true
+  baz: qux
